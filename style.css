@@ -4,8 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: rgb(32, 3, 56);
-  font-family: "Poppins", sans-serif;
+  color: rgb(230, 180, 19);
+  font-family: serif;
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
 }
 
 .container img {
-  width: 100%;
+  width: auto;
   position: absolute;
   height: 110vh;
   object-fit: cover;
@@ -38,7 +38,8 @@ nav {
 
 .content {
   width: 100%;
-  background-color: rgb(24, 24, 24);
+  background-image: linear-gradient(rgba(78, 119, 231, 0.603), rgba(23, 5, 122, 0.568)),
+  url("");
   min-height: 110vh;
   z-index: 2;
   position: absolute;
